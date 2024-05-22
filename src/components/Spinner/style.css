@@ -1,0 +1,22 @@
+.spinner {
+  margin-top: 20px;
+  margin-left: 20px;
+  width: 100px;
+  height: 50px;
+  border-radius: 40px;
+  background: #9a9393;
+  padding: 5px;
+  cursor: pointer;
+}
+
+.spinner-circle {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  background: #ffffff;
+  transition: all 0.2s linear;
+}
+
+.active .spinner-circle {
+  transform: translateX(50px);
+}
